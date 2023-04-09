@@ -21,7 +21,6 @@
 }
 .general .card-size {
   justify-content: center;
-  border: 1px solid red;
   width: 100%;
   height: 700px;
   position: relative;
@@ -50,4 +49,25 @@
 
 .active {
   display: none;
+}
+
+.fade-in {
+  animation: fade 4s infinite;
+}
+
+@keyframes fade {
+  0% {
+    transform: rotate3d(2, 2, 0, 0deg);
+  }
+  20% {
+    opacity: 1;
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  80% {
+    opacity: 1;
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(-2, -2, 0, 0deg);
+  }
 }/*# sourceMappingURL=style.css.map */
