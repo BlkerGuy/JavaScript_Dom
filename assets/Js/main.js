@@ -17,7 +17,7 @@ left.addEventListener('click', LeftSideSwitch);
 if (document.getElementById("slider")) {
     count = 0;
     const slider = () => {
-        document.getElementById("slider").classList.add('fade-in');
+        document.querySelector("#slider").classList.add('fade-in');
 
         RightSideSwitch()
     };
