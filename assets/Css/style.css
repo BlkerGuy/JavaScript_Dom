@@ -20,7 +20,6 @@
   height: 100vh;
 }
 .general .card-size {
-  border: 1px solid red;
   justify-content: center;
   width: 100%;
   height: 700px;
@@ -29,6 +28,10 @@
 .general .card-size img {
   width: 100%;
   height: 100%;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .general .card-size .swiper-btns {
   display: flex;

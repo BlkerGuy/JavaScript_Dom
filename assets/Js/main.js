@@ -5,15 +5,13 @@ let right = document.querySelector('#right');
 let left = document.querySelector('#left');
 let count = 1;
 
-
 // Customize Time: default 4 sec
 let setSlideSpeedTime=0;
+//--------------------------[:Slide-Time:]------------
 
 right.addEventListener('click', RightSideSwitch);
 left.addEventListener('click', LeftSideSwitch);
 add[0].classList.remove('active');
-
-
 
 //Slide next img
 function RightSideSwitch() {
